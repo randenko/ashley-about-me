@@ -1,0 +1,113 @@
+body {
+	background: transparent url('../images/sand-background1.jpg') center no-repeat; 
+	font-family: arial, verdana, sans-serif;
+}
+h1 {
+	font-family: Papyrus, fantasy;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 30px;
+	text-align: center;
+}
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+p {
+	text-indent: 20px;
+	padding: 3px;
+}
+.content {
+	background: transparent url('../images/chalkboard.png') center right no-repeat;
+	margin-top:10px;
+	min-height:619px
+}
+
+.nav {
+	margin-top:40px;
+}
+	.nav ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	.nav li {
+		display: block;
+		text-align: center;
+		background: transparent url('../images/tab-notes.png') no-repeat;
+		width:125px;
+		height:111px;
+	}
+	.nav a {
+		display: inline;
+		padding: 10px;
+		position: relative;
+		width: 100px;
+		top: 40px;
+		color: #7A6021;
+		text-decoration: none;
+		font-family:'Century Gothic',futura,'URW Gothic L',Verdana,sans-serif;
+		font-weight: bold;
+	}
+	.nav a:hover {
+		color: #A146B1;
+	}
+	
+#main {
+	color:white;
+	margin-top:100px;
+	padding-left: 40px;
+}
+.info {
+	margin-top: 20px;
+	line-height: 20px;
+}
+	.info li {
+		padding: 5px;
+	}
+	.info a {
+		color: white;
+	}
+	.info a:hover {
+		color: #A146B1;
+	}
+.list {
+	margin-top: 35px;
+	margin-left: 20px;
+}
+	.list li {
+		list-style: circle;
+		padding: 7px;
+	}
+.chalk {
+	width: 80%;
+}
+.bear {
+	list-style-image: url('../images/bear.png');
+	margin-top: 15px;
+	margin-left: 80px;
+}
+	.bear li {
+		padding: 5px;
+	}
+	.bear a {
+		padding: 5px;
+		vertical-align: 15px;
+		color: #35BE45;
+		text-decoration: underline;
+	}
+	.bear a:hover {
+		color: #A146B1;
+	}
+.sources {
+	margin-top: 15px;
+	margin-left: 20px;
+	line-height: 23px;
+	text-align: center;
+}
+	.sources a {
+		color: white;
+	}
+	.sources a:hover {
+		color: #A146B1;
+	}
